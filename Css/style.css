@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+    overflow: auto;
+    font-size: .14rem;
+}
+
+section>ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: .45rem;
+}
+
+section>ul>li {
+    flex: 1;
+    text-align: center;
+    line-height: .45rem
+}
+
+section>ul>li.active {
+    border-bottom: .02rem solid skyblue;
+    color: skyblue;
+}
+
+.div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    width: 100%;
+    margin-top: .2rem;
+    border-radius: .05rem;
+    border:.01rem solid rgba(0, 1, 1, .2)
+}
+
+.list>div:first-child {
+    height: .7rem;
+    position: relative;
+    border-top-left-radius: .05rem;
+    border-top-right-radius: .05rem;
+
+}
+
+.list>div:first-child img {
+    position: absolute;
+    left: .2rem;
+    top: .1rem;
+    width: 7%
+}
+
+.list>div:first-child span {
+    color: #fff;
+    font-size: .55rem;
+    margin-left: .4rem
+}
+
+.list>div:first-child a {
+    position: absolute;
+    right: .2rem;
+    bottom: .1rem;
+    color: #fff;
+    font-size: .2rem;
+}
+.list>div:last-child p{
+    font-size: .11rem;
+    line-height: .3rem;
+    padding-left: .1rem;
+}
+.list>div:last-child p:first-child{
+    color: skyblue;
+}
+.list>div:last-child span{
+    display: inline-block;
+    margin-top: .05rem
+}
+.list>div:last-child p:first-child span{
+    width: .26rem;
+    height: .2rem;
+    background: url("../Images/b.png");
+    background-position: 0 -.04rem;
+}
+.list>div:last-child p:last-child span{
+    width: .26rem;
+    height: .26rem;
+    background: url("../Images/b.png");
+    background-position: 0 -.35rem;
+}
